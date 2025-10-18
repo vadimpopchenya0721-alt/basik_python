@@ -64,6 +64,7 @@ print(id(x),id(y),id(z))
 # Выведи значения a и b после обмена.
 
 a = 5
+c = 7
 b = 10
 a,b = b,a
 print("a", a,"b", b)
