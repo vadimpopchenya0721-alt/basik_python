@@ -5,14 +5,14 @@
 # Выведи на экран значения всех четырех переменных и их типы с помощью type().
 # ================================================
 
-# a = 8
-# b = 3
-# x = 2.5
-# y = -1.7
-# print(type(a))
-# print(type(b))
-# print(type(x))
-# print(type(y))
+a = 8
+b = 3
+x = 2.5
+y = -1.7
+print(type(a))
+print(type(b))
+print(type(x))
+print(type(y))
 
 # 2. Основные арифметические операции
 # ================================================
@@ -26,23 +26,23 @@
 # остаток от деления num1 % num2
 # возведение в степень num1 ** num2
 # ================================================
-#
-# num1  = 3
-# num2 = 4
-# rez1 = num1 + num2
-# rez2 = num1 - num2
-# rez3 = num1 * num2
-# rez4 = num1 / num2
-# rez5 = num1 // num2
-# rez6 = num1 % num2
-# rez7 = num1 ** num2
-# print(rez1)
-# print(rez2)
-# print(rez3)
-# print(rez4)
-# print(rez5)
-# print(rez6)
-# print(rez7)
+
+num1  = 3
+num2 = 4
+rez1 = num1 + num2
+rez2 = num1 - num2
+rez3 = num1 * num2
+rez4 = num1 / num2
+rez5 = num1 // num2
+rez6 = num1 % num2
+rez7 = num1 ** num2
+print(rez1)
+print(rez2)
+print(rez3)
+print(rez4)
+print(rez5)
+print(rez6)
+print(rez7)
 
 # 3. Особенности работы с делением
 # ================================================
@@ -54,14 +54,14 @@
 # Повтори те же операции для a = 10 и b = -3.
 # ================================================
 
-# a = 10
-# b = 3
-# rez1 = a / b
-# rez2 = a // b
-# rez3 = a % b
-# print(rez1)
-# print(rez2)
-# print(rez3)
+a = 10
+b = 3
+rez1 = a / b
+rez2 = a // b
+rez3 = a % b
+print(rez1)
+print(rez2)
+print(rez3)
 
 # 5. Использование сокращенных операторов
 # ================================================
@@ -72,12 +72,12 @@
 # Раздели count на 4 с помощью /=.
 # Выведи итоговое значение count.
 
-# count = 10
-# count += 5
-# count -= 3
-# count *= 3
-# count /= 4
-# print(count)
+count = 10
+count += 5
+count -= 3
+count *= 3
+count /= 4
+print(count)
 
 # 1. Создание строк
 # ================================================
@@ -86,17 +86,17 @@
 # Создай многострочную строку с помощью тройных кавычек и выведи её.
 # Создай пустую строку empty = "" и выведи её длину с помощью len().
 
-# s1 = "Python"
-# s2 = 'Программирование'
-# print(s1)
-# print(s2)
-# s3 = """Python
-# Программирование"""
-# print(s3)
+s1 = "Python"
+s2 = 'Программирование'
+print(s1)
+print(s2)
+s3 = """Python
+Программирование"""
+print(s3)
 
-# empty = ""
-# a = len(empty)
-# print(a)
+empty = ""
+a = len(empty)
+print(a)
 
 # 2. Конкатенация строк
 # ================================================
@@ -104,11 +104,11 @@
 # Объедини их в одну строку full_name, добавив пробел между именем и фамилией.
 # Выведи full_name на экран.
 
-# first_name = "Иван"
-# last_name = "Петров"
-# full_name = first_name + " " + last_name
-# print(full_name)
-# print(f"Меня зовут: {first_name},\nМоя фамилия: {last_name}")
+first_name = "Иван"
+last_name = "Петров"
+full_name = first_name + " " + last_name
+print(full_name)
+print(f"Меня зовут: {first_name},\nМоя фамилия: {last_name}")
 
 # 3. Преобразование типов
 # ================================================
@@ -116,18 +116,18 @@
 # Создай переменную age = 25.
 # Объедини строку s и число age, используя str(), и выведи результат.
 
-# s = "Возраст: "
-# age = 25
-# rez = s + str(age)
-# print(rez)
+s = "Возраст: "
+age = 25
+rez = s + str(age)
+print(rez)
 
 # 4. Дублирование строк
 # ================================================
 # Выведи строку "ха " 5 раз подряд, используя оператор *.
 # Попробуй выполнить "ха " * 2.5.
 
-# a = "ха "
-# print(a * 5)
+a = "ха "
+print(a * 5)
 # print(a * 2.5)
 
 # 5. Длина строки
@@ -137,11 +137,11 @@
 # Создай пустую строку и тоже выведи её длину.
 # ================================================
 
-# text = "Привет, мир!"
-# len_text = len(text)
-# print(len_text)
-# text1 = ""
-# print(len(text1))
+text = "Привет, мир!"
+len_text = len(text)
+print(len_text)
+text1 = ""
+print(len(text1))
 
 # 6. Проверка вхождения подстроки
 # ================================================
@@ -150,13 +150,13 @@
 # Проверь, содержится ли "Java" в sentence.
 # ================================================
 
-# sentence = "Я изучаю Python"
-# python = "Python"
-# java = "Java"
-# rez = python in sentence
-# rez1 = java in sentence
-# print(rez)
-# print(rez1)
+sentence = "Я изучаю Python"
+python = "Python"
+java = "Java"
+rez = python in sentence
+rez1 = java in sentence
+print(rez)
+print(rez1)
 
 # 7. Сравнение строк
 # ================================================
@@ -164,20 +164,20 @@
 # Сравни их с помощью операторов ==, !=, <, >, <=, >= и выведи результаты.
 # ================================================
 
-# a = "apple"
-# b = "banana"
-# c = a == b
-# d = a != b
-# e = a > b
-# f = a < b
-# g = a >= b
-# h = a <= b
-# print(c)
-# print(d)
-# print(e)
-# print(f)
-# print(g)
-# print(h)
+a = "apple"
+b = "banana"
+c = a == b
+d = a != b
+e = a > b
+f = a < b
+g = a >= b
+h = a <= b
+print(c)
+print(d)
+print(e)
+print(f)
+print(g)
+print(h)
 
 # 8. Код символов
 # ================================================
@@ -185,11 +185,11 @@
 # Выведи код символа 'a'.
 # Выведи код символа 'Я'.
 
-# a = 'A'
-# b = 'a'
-# c = 'Я'
-# print(ord(a))
-# print(ord(b))
-# print(ord(c))
+a = 'A'
+b = 'a'
+c = 'Я'
+print(ord(a))
+print(ord(b))
+print(ord(c))
 
 
